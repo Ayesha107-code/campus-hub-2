@@ -1,0 +1,132 @@
+.container {
+  background-color: #F8F8FF;
+  min-height: 100vh;
+  padding: 40px 64px;
+}
+
+.title{
+  font-size: 28px;
+  font-weight: 700;
+  color: #26215C;
+  margin-bottom: 24px;
+}
+
+/*  Stats  */
+.stats {
+  background-color: #26215C;
+  color: #EEEDFE;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px 24px;
+  border-radius: 10px;
+  margin-bottom: 32px;
+  display: inline-block;
+}
+
+/*  Table wrapper  */
+.table {
+  background-color: #FFFFFF;
+  border: 1px solid #CECBF6;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table head */
+thead {
+  background-color: #26215C;
+}
+
+thead th {
+  color: #EEEDFE;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 14px 20px;
+  text-align: left;
+}
+
+/* Table body  */
+tbody tr {
+  border-bottom: 1px solid #EEEDFE;
+  transition: background-color 0.2s ease;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+tbody tr:hover {
+  background-color: #F8F8FF;
+}
+
+tbody td {
+  font-size: 14px;
+  color: #26215C;
+  padding: 14px 20px;
+}
+
+/*  Action buttons */
+.btn {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: all 0.2s ease;
+}
+
+/* Edit button — purple */
+.btn:first-child {
+  background-color: #EEEDFE;
+  color: #3C3489;
+}
+
+.btn:first-child:hover {
+  background-color: #3C3489;
+  color: #EEEDFE;
+}
+
+/* Delete button — red */
+.btn:last-child {
+  background-color: #FCEBEB;
+  color: #791F1F;
+}
+
+.btn:last-child:hover {
+  background-color: #791F1F;
+  color: #FCEBEB;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .container {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 24px 20px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  /* make table scrollable on mobile */
+  .table {
+    overflow-x: auto;
+  }
+
+  thead th,
+  tbody td {
+    padding: 12px 14px;
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+span{
+    background-color: blueviolet;
+}
+
+
+.hero-section{
+    height: 400px;
+    width: 100vw;
+    background-color: brown;
+}
+
