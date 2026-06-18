@@ -3,7 +3,7 @@ const router = express.Router()
 const Event = require('../models/Event')
 const protect = require('../middleware/authMiddleware')
 
-// GET all events
+
 router.get('/', async (req, res) => {
   try {
     const events = await Event.find()
@@ -13,7 +13,7 @@ router.get('/', async (req, res) => {
   }
 })
 
-// GET single event
+
 router.get('/:id', async (req, res) => {
   try {
     const event = await Event.findById(req.params.id)
@@ -26,7 +26,7 @@ router.get('/:id', async (req, res) => {
   }
 })
 
-// POST create event
+
 router.post('/', protect, async (req, res) => {
   try {
     const { title, category, date, location, seats, description, emoji } = req.body
@@ -40,7 +40,7 @@ router.post('/', protect, async (req, res) => {
   }
 })
 
-// PUT edit event
+
 router.put('/:id', protect, async (req, res) => {
   try {
     const event = await Event.findByIdAndUpdate(
@@ -54,7 +54,7 @@ router.put('/:id', protect, async (req, res) => {
   }
 })
 
-// DELETE event
+
 router.delete('/:id', protect, async (req, res) => {
   try {
     await Event.findByIdAndDelete(req.params.id)

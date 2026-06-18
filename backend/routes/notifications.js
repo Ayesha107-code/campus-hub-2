@@ -35,7 +35,7 @@ const notifications = [
   },
 ]
 
-// GET all notifications
+
 router.get('/', protect, (req, res) => {
   res.json(notifications)
 })

@@ -105,7 +105,7 @@
   background-color: transparent
 }
 
-/* ─── Responsive ─────────────────────────────── */
+
 @media (max-width: 1024px) {
   .container {
     padding: 40px;

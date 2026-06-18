@@ -19,7 +19,7 @@ const EditEvent = () => {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
 
-  // fetch event data and pre fill form
+  
   useEffect(() => {
     const fetchEvent = async () => {
       try {

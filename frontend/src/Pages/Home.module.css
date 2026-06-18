@@ -3,7 +3,7 @@
   min-height: 100vh;
 }
 
-/* Hero */
+
 .hero {
   background-color: #26215C;
   padding: 80px 64px;
@@ -62,7 +62,7 @@
   background-color: #3C3489;
 }
 
-/* Featured Events */
+
 .featured {
   padding: 56px 64px;
 }
@@ -100,7 +100,7 @@
   font-size: 15px;
 }
 
-/* Events Grid */
+
 .eventsGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -121,7 +121,6 @@
   box-shadow: 0 8px 24px rgba(38, 33, 92, 0.1);
 }
 
-/* Image */
 .cardImage {
   width: 100%;
   height: 250px;
@@ -186,7 +185,7 @@
   color: #EEEDFE;
 }
 
-/* CTA */
+
 .cta {
   margin: 0 64px 64px;
   background-color: #26215C;
@@ -224,7 +223,7 @@
   background-color: #CECBF6;
 }
 
-/* Responsive  */
+
 @media (max-width: 1024px) {
   .hero {
     padding: 60px 40px;

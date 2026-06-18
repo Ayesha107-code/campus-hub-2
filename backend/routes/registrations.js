@@ -3,7 +3,7 @@ const router = express.Router()
 const Registration = require('../models/Registration')
 const protect = require('../middleware/authMiddleware')
 
-// Register for event
+
 router.post('/', protect, async (req, res) => {
   try {
     const { eventId } = req.body
@@ -27,7 +27,7 @@ router.post('/', protect, async (req, res) => {
   }
 })
 
-// Get my registrations
+
 router.get('/my', protect, async (req, res) => {
   try {
     const registrations = await Registration.find({ user: req.user.id })
@@ -38,7 +38,7 @@ router.get('/my', protect, async (req, res) => {
   }
 })
 
-// Cancel registration
+
 router.delete('/:id', protect, async (req, res) => {
   try {
     await Registration.findByIdAndDelete(req.params.id)

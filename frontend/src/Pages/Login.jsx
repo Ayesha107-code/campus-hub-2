@@ -23,10 +23,9 @@ const Login = () => {
       setLoading(true)
       const response = await axios.post('/auth/login', { email, password })
 
-      // save user and token in AuthContext
       login(response.data.user, response.data.token)
 
-      // redirect to home page
+      
       navigate('/')
     } catch (err) {
       setError(err.response?.data?.message || 'Login failed')
@@ -40,7 +39,7 @@ const Login = () => {
 
         <h3 className={styles.title}>Login</h3>
 
-        {/* show error if any */}
+
         {error && <p className={styles.error}>{error}</p>}
 
         <input

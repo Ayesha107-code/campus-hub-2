@@ -11,7 +11,7 @@
   margin-bottom: 24px;
 }
 
-/*  Stats  */
+
 .stats {
   background-color: #26215C;
   color: #EEEDFE;
@@ -23,7 +23,6 @@
   display: inline-block;
 }
 
-/*  Table wrapper  */
 .table {
   background-color: #FFFFFF;
   border: 1px solid #CECBF6;
@@ -36,7 +35,7 @@ table {
   border-collapse: collapse;
 }
 
-/* Table head */
+
 thead {
   background-color: #26215C;
 }
@@ -49,7 +48,7 @@ thead th {
   text-align: left;
 }
 
-/* Table body  */
+
 tbody tr {
   border-bottom: 1px solid #EEEDFE;
   transition: background-color 0.2s ease;
@@ -69,7 +68,7 @@ tbody td {
   padding: 14px 20px;
 }
 
-/*  Action buttons */
+
 .btn {
   font-size: 12px;
   font-weight: 500;
@@ -81,7 +80,7 @@ tbody td {
   transition: all 0.2s ease;
 }
 
-/* Edit button — purple */
+
 .btn:first-child {
   background-color: #EEEDFE;
   color: #3C3489;
@@ -92,7 +91,7 @@ tbody td {
   color: #EEEDFE;
 }
 
-/* Delete button — red */
+
 .btn:last-child {
   background-color: #FCEBEB;
   color: #791F1F;
@@ -103,7 +102,6 @@ tbody td {
   color: #FCEBEB;
 }
 
-/* Responsive */
 @media (max-width: 1024px) {
   .container {
     padding: 40px;
@@ -119,7 +117,6 @@ tbody td {
     font-size: 22px;
   }
 
-  /* make table scrollable on mobile */
   .table {
     overflow-x: auto;
   }

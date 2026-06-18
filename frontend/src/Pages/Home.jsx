@@ -45,7 +45,7 @@ const Home = () => {
   return (
     <div className={styles.home}>
 
-      {/* Hero Section */}
+      
       <section className={styles.hero}>
         <h1 className={styles.heroTitle}>Discover. Connect. Celebrate.</h1>
         <p className={styles.heroSub}>
@@ -61,7 +61,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Featured Events */}
+      
       <section className={styles.featured}>
 
         <div className={styles.sectionHeader}>
@@ -100,7 +100,7 @@ const Home = () => {
 
       </section>
 
-      {/* CTA Banner */}
+      
       <section className={styles.cta}>
         <h2 className={styles.ctaTitle}>Are you an organizer?</h2>
         <p className={styles.ctaSub}>Create and manage your campus events easily.</p>

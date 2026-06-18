@@ -31,7 +31,7 @@
   margin-bottom: 24px;
 }
 
-/* Search */
+
 .searchInput {
   width: 100%;
   max-width: 420px;
@@ -51,7 +51,7 @@
   border-color: #7F77DD;
 }
 
-/* Category buttons */
+
 .categories {
   display: flex;
   gap: 8px;
@@ -84,7 +84,6 @@
   cursor: pointer;
 }
 
-/*  Events Grid  */
 .eventsGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -196,7 +195,7 @@
   margin-top: 20px;
 }
 
-/* Responsive  */
+
 @media (max-width: 1024px) {
   .container {
     padding: 40px;

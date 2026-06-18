@@ -15,7 +15,7 @@ const Events = () => {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
 
-  // fetch events from backend when page loads
+
   useEffect(() => {
     const fetchEvents = async () => {
       try {

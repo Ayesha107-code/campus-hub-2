@@ -7,21 +7,20 @@ dotenv.config()
 
 const app = express()
 
-// middleware
+
 app.use(cors())
 app.use(express.json())
-//routes
+
 app.use('/api/auth', require('./routes/auth'))
 app.use('/api/events', require('./routes/events'))
 app.use('/api/registrations', require('./routes/registrations'))
 app.use('/api/notifications', require('./routes/notifications'))
 
-// test route
+
 app.get('/', (req, res) => {
   res.json({ message: 'Campus Hub API is running!' })
 })
 
-// connect to MongoDB and start server
 mongoose.connect(process.env.MONGO_URI)
   .then(() => {
     console.log('MongoDB connected!')

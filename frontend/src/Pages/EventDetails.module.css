@@ -1,15 +1,13 @@
 .container {
-  
   min-height: 100vh;
   padding: 40px 64px;
   margin: 0 auto;
 }
 
-/*  Back button */
 .backBtn {
   background: none;
   border: none;
-  color: #534AB7;
+  color: #534ab7;
   font-size: 14px;
   font-weight: 500;
   cursor: pointer;
@@ -18,10 +16,9 @@
 }
 
 .backBtn:hover {
-  color: #26215C;
+  color: #26215c;
 }
 
-/* Two column layout  */
 .layout {
   display: grid;
   grid-template-columns: 1fr 400px;
@@ -29,22 +26,19 @@
   align-items: start;
 }
 
-/* Left side */
+
 .main {
-  background-color: #FFFFFF;
-  border: 1px solid #CECBF6;
+  background-color: #ffffff;
+  border: 1px solid #cecbf6;
   border-radius: 12px;
   overflow: hidden;
-  
 }
 
-/* Emoji banner */
 .banner {
   width: 100%;
   height: 300px;
   overflow: hidden;
   padding: 20px;
-
 }
 
 .banner img {
@@ -63,8 +57,8 @@
   display: inline-block;
   font-size: 12px;
   font-weight: 600;
-  color: #534AB7;
-  background-color: #EEEDFE;
+  color: #534ab7;
+  background-color: #eeedfe;
   padding: 4px 12px;
   border-radius: 99px;
   margin: 20px 24px 12px;
@@ -73,12 +67,12 @@
 .title {
   font-size: 28px;
   font-weight: 700;
-  color: #26215C;
+  color: #26215c;
   padding: 0 24px;
   margin-bottom: 16px;
 }
 
-/* Meta row */
+
 .metaRow {
   display: flex;
   gap: 12px;
@@ -90,24 +84,23 @@
 .metaItem {
   font-size: 14px;
   font-weight: 500;
-  color: #26215C;
-  background-color: #FFFFFF;
+  color: #26215c;
+  background-color: #ffffff;
   padding: 8px 20px;
   border-radius: 99px;
-  border: 2px solid #7F77DD;
+  border: 2px solid #7f77dd;
 }
 
-/* Description section */
 .section {
   padding: 0 24px 24px;
-  border-top: 1px solid #EEEDFE;
+  border-top: 1px solid #eeedfe;
   margin-top: 8px;
 }
 
 .sectionTitle {
   font-size: 16px;
   font-weight: 600;
-  color: #26215C;
+  color: #26215c;
   margin: 20px 0 10px;
 }
 
@@ -117,15 +110,15 @@
   line-height: 1.8;
 }
 
-/* Right sidebar */
+
 .sidebar {
   position: sticky;
   top: 84px;
 }
 
 .registerBox {
-  background-color: #FFFFFF;
-  border: 1px solid #CECBF6;
+  background-color: #ffffff;
+  border: 1px solid #cecbf6;
   border-radius: 12px;
   padding: 24px;
 }
@@ -133,18 +126,18 @@
 .registerTitle {
   font-size: 18px;
   font-weight: 700;
-  color: #26215C;
+  color: #26215c;
   margin-bottom: 16px;
 }
 
 .registerSeats {
   font-size: 14px;
   font-weight: 500;
-  color: #26215C;
-  background-color: #EEEDFE;
+  color: #26215c;
+  background-color: #eeedfe;
   padding: 8px 16px;
   border-radius: 99px;
-  border: 1px solid #CECBF6;
+  border: 1px solid #cecbf6;
   margin-bottom: 10px;
   display: inline-block;
 }
@@ -152,11 +145,11 @@
 .registerDate {
   font-size: 14px;
   font-weight: 500;
-  color: #26215C;
-  background-color: #EEEDFE;
+  color: #26215c;
+  background-color: #eeedfe;
   padding: 8px 16px;
   border-radius: 99px;
-  border: 1px solid #CECBF6;
+  border: 1px solid #cecbf6;
   margin-bottom: 10px;
   display: inline-block;
 }
@@ -164,11 +157,11 @@
 .registerLocation {
   font-size: 14px;
   font-weight: 500;
-  color: #26215C;
-  background-color: #EEEDFE;
+  color: #26215c;
+  background-color: #eeedfe;
   padding: 8px 16px;
   border-radius: 99px;
-  border: 1px solid #CECBF6;
+  border: 1px solid #cecbf6;
   margin-bottom: 20px;
   display: inline-block;
 }
@@ -176,8 +169,8 @@
 .registerBtn {
   width: 100%;
   padding: 12px;
-  background-color: #7F77DD;
-  color: #EEEDFE;
+  background-color: #7f77dd;
+  color: #eeedfe;
   border: none;
   border-radius: 8px;
   font-size: 15px;
@@ -187,14 +180,14 @@
 }
 
 .registerBtn:hover {
-  background-color: #534AB7;
+  background-color: #534ab7;
 }
 
-/* Not found */
+
 .notFound {
   text-align: center;
   padding: 80px;
-  color: #26215C;
+  color: #26215c;
 }
 
 .notFound h2 {
@@ -203,8 +196,8 @@
 }
 
 .notFound button {
-  background-color: #7F77DD;
-  color: #EEEDFE;
+  background-color: #7f77dd;
+  color: #eeedfe;
   border: none;
   padding: 10px 24px;
   border-radius: 8px;
@@ -212,7 +205,7 @@
   cursor: pointer;
 }
 
-/*  Responsive */
+
 @media (max-width: 1024px) {
   .container {
     padding: 40px;
@@ -240,5 +233,4 @@
     flex-direction: column;
     gap: 10px;
   }
-  
 }

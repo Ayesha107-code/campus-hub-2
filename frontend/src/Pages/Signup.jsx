@@ -32,10 +32,10 @@ const Signup = () => {
         name, email, password, role
       })
 
-      // save user and token
+      
       login(response.data.user, response.data.token)
 
-      // redirect to home
+     
       navigate('/')
     } catch (err) {
       setError(err.response?.data?.message || 'Signup failed')

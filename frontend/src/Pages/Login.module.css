@@ -86,7 +86,7 @@
   width: 100%;
   text-align: center;
 }
-/* Responsive */
+
 @media (max-width: 768px) {
   
   .form {
